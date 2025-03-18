@@ -6,7 +6,7 @@ pipeline {
              steps {
                  script {
                      build 'PES1UG22CS702'
-                     sh 'g++ -o a PES1UG22CS702.cpp'
+                     sh 'g++ -o a new_cpp_file.cpp'
                  }
              }
          }
