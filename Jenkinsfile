@@ -22,7 +22,6 @@ pipeline {
          stage('Deploy') {
              steps {
                  echo 'This pipeline works!!!'
-                  Making another random intentional edit to fail the jenkinsfile
              }
          }
      }
